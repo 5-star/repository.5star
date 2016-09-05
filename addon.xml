@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.rodrigl" name="Repository for rodrigl KODI addons" version="1.0.1" provider-name="Luis Rodrigues">
+    <extension point="xbmc.addon.repository" name="Repository for rodrigl KODI addons">
+        <info compressed="false">https://raw.githubusercontent.com/rodrigl/repository.rodrigl/master/addons/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/rodrigl/repository.rodrigl/master/addons/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/rodrigl/repository.rodrigl/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repository for rodrigl KODI addons</summary>
+        <description>Repository for rodrigl KODI addons</description>
+        <platform>all</platform>
+    </extension>
+</addon>
