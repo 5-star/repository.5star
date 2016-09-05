@@ -39,4 +39,55 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.5star_movies" name="5 Star Movies" version="1.0.1" provider-name="Luis Rodrigues">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="context.py">
+				<label>30010</label>
+				<visible>StringCompare(Container.Content,movies) | StringCompare(Container.Content,tvshows)</visible>
+			</item>
+		</menu>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">5 Star Movies</summary>
+		<description lang="en">A Kodi Addon to display and manage themoviedb lists and ratings</description>
+		<disclaimer lang="en">I am not responsible if your house is on fire, if your kodi runs away with another kodi or anything else that may happen</disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<source>https://github.com/rodrigl/plugin.video.5star_movies</source>
+	</extension>
+</addon>
+
+<addon id="context.clean_remove" name="Clean Remove" version="1.0.1" provider-name="Luis Rodrigues">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>	
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="addon.py">
+				<label>30001</label>
+				<visible>StringCompare(Container.Content,movies) | StringCompare(Container.Content,episodes) | StringCompare(Container.Content,musicvideos) | StringCompare(Container.Content,files)</visible>
+			</item>
+		</menu>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_gb">Clean Remove</summary>
+		<description lang="en_gb">Removes item from library and disk, together with fanart and subtitles. No more orphan files left behind after Remove from library</description>
+		<disclaimer lang="en_gb">I am not responsible if your house is on fire, if your kodi runs away with another kodi or anything else that may happen</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/rodrigl/plugin.video.LR.last_viewed</source>
+	</extension>
+</addon>
+
 </addons>
