@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="repository.rodrigl" name="Repository for rodrigl KODI addons" version="1.0.1" provider-name="Luis Rodrigues">
-	<extension point="xbmc.addon.repository" name="Repository for rodrigl KODI addons">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/rodrigl/repository.rodrigl/master/addons/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/rodrigl/repository.rodrigl/master/addons/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/rodrigl/repository.rodrigl/raw/master/zips/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Repository for rodrigl KODI addons</summary>
-		<description lang="en">Repository for rodrigl KODI addons</description>
-		<disclaimer lang="en"></disclaimer>
-		<platform>all</platform>
-	</extension>
+<addon id="repository.5star" name="Repository for 5 Star Kodi addons" version="1.0.1" provider-name="Luis Rodrigues">
+    <extension point="xbmc.addon.repository" name="Repository for 5 Star Kodi addons">
+        <info compressed="false">https://raw.githubusercontent.com/rodrigl/repository.5star/master/addons/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/rodrigl/repository.5star/master/addons/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/rodrigl/repository.5star/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repository for 5 Star Kodi addons</summary>
+        <description>Repository for 5 Star Kodi addons</description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="plugin.video.last_played" name="Last Played" version="1.0.7" provider-name="Luis Rodrigues">
@@ -86,7 +83,7 @@
 		<forum></forum>
 		<website></website>
 		<email></email>
-		<source>https://github.com/rodrigl/plugin.video.LR.last_viewed</source>
+		<source>https://github.com/rodrigl/context.clean_remove</source>
 	</extension>
 </addon>
 
