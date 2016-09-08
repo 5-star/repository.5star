@@ -4,7 +4,7 @@
         <info compressed="false">https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml.md5</checksum>
 		<datadir zip="true">https://github.com/5-star/repository.5star/raw/master/zips/</datadir>
-    </extension>
+    </extension> 
     <extension point="xbmc.addon.metadata">
         <summary>Repository for 5 Star Kodi addons</summary>
         <description>Repository for 5 Star Kodi addons</description>
