@@ -1,1 +1,2 @@
-Version 0.0.1 Initial Release
+[B]1.0.3[/B] - New site starmovies.org
+[B]1.0.1[/B] - Initial Release
