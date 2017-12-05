@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.5star" name="Repository for 5 Star Kodi addons" version="1.0.3" provider-name="Luis Rodrigues">
+<addon id="repository.5star" name="Repository for 5 Star Kodi addons" version="1.0.4" provider-name="Luis Rodrigues">
     <extension point="xbmc.addon.repository" name="Repository for 5 Star Kodi addons">
         <info compressed="false">https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml.md5</checksum>

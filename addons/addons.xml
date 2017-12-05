@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="repository.5star" name="Repository for 5 Star Kodi addons" version="1.0.3" provider-name="Luis Rodrigues">
+<addon id="repository.5star" name="Repository for 5 Star Kodi addons" version="1.0.4" provider-name="Luis Rodrigues">
     <extension point="xbmc.addon.repository" name="Repository for 5 Star Kodi addons">
         <info compressed="false">https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml.md5</checksum>
@@ -84,6 +84,25 @@
 		<email></email>
 		<source>https://github.com/rodrigl/context.clean_remove</source>
 	</extension>
+</addon>
+
+<addon id="service.autoSRT"
+    name="AutoSRT (Unofficial)" version="1.0.6" provider-name="schumi2004,Mafarricos,rodrigl">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="default.py" start="login" />
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Search for Subtitles on Play if missing</summary>
+    <description lang="en">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
+    <summary lang="pt">Pesquisa Automática por legendas no Play se não existir SRT</summary>
+    <description lang="pt">Pesquisa Automática por legendas na reprodução se não existir um ficheiro SRT de legendas.[CR][CR]Créditos dos icons vão para zNET Computer Solutions http://www.znetcs.pl</description>	
+    <platform>all</platform>
+    <language>en</language>
+  </extension>
 </addon>
 
 </addons>
