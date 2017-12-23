@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="repository.5star" name="Repository for 5Star Kodi addons" version="1.0.6" provider-name="Luis Rodrigues">
+<addon id="repository.5star" name="Repository for 5Star Kodi addons" version="1.0.7" provider-name="Luis Rodrigues">
     <extension point="xbmc.addon.repository" name="Repository for 5Star Kodi addons">
         <info compressed="false">https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml.md5</checksum>
@@ -87,7 +87,7 @@
 </addon>
 
 <addon id="service.autoSRT"
-    name="AutoSRT (Unofficial)" version="1.0.6" provider-name="schumi2004,Mafarricos,rodrigl">
+    name="AutoSRT (Unofficial)" version="1.0.7" provider-name="schumi2004,Mafarricos,rodrigl">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
