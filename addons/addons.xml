@@ -60,7 +60,7 @@
 	</extension>
 </addon>
 
-<addon id="context.clean_remove" name="Clean Remove" version="1.0.1" provider-name="Luis Rodrigues">
+<addon id="context.clean_remove" name="Clean Remove" version="1.0.2" provider-name="Luis Rodrigues">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>	
@@ -68,21 +68,21 @@
 		<menu id="kodi.core.main">
 			<item library="addon.py">
 				<label>30001</label>
-				<visible>StringCompare(Container.Content,movies) | StringCompare(Container.Content,episodes) | StringCompare(Container.Content,musicvideos) | StringCompare(Container.Content,files)</visible>
+				<visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,musicvideo) | String.IsEqual(Container.Content,files)</visible>
 			</item>
 		</menu>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_gb">Clean Remove</summary>
 		<description lang="en_gb">Removes item from library and disk, together with fanart and subtitles. No more orphan files left behind after Remove from library</description>
-		<disclaimer lang="en_gb">I am not responsible if your house is on fire, if your kodi runs away with another kodi or anything else that may happen</disclaimer>
+		<disclaimer lang="en_gb"></disclaimer>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
 		<forum></forum>
 		<website></website>
 		<email></email>
-		<source>https://github.com/rodrigl/context.clean_remove</source>
+		<source>https://github.com/5-star/context.clean_remove</source>
 	</extension>
 </addon>
 
