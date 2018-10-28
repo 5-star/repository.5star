@@ -23,11 +23,19 @@
 	</extension>
 	<extension point="xbmc.service" library="default.py" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Last Played</summary>
-		<summary lang="pt">Ultimos Vistos</summary>
-		<description lang="en">List of the last movies, episodes and music played, including streaming sources from any addon</description>
-		<description lang="pt">Ultimos filmes, episodios e musicas tocadas, incluindo fontes de streaming de qualquer addon</description>
-		<disclaimer lang="en"></disclaimer>
+	<summary lang="en_GB">Last Played</summary>
+	<summary lang="en_US">Last Played</summary>
+	<summary lang="en_AU">Last Played</summary>
+	<summary lang="en_NZ">Last Played</summary>
+		<summary lang="pt_PT">Ultimos Vistos</summary>
+		<summary lang="pt_BR">Ultimos Vistos</summary>
+		<description lang="en_GB">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+		<description lang="en_US">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+		<description lang="en_AU">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+		<description lang="en_NZ">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+		<description lang="pt_PT">Ultimos filmes, episodios e musicas tocadas, incluindo fontes de streaming de qualquer addon</description>
+		<description lang="pt_BR">Ultimos filmes, episodios e musicas tocadas, incluindo fontes de streaming de qualquer addon</description>
+		<disclaimer lang="en_GB"></disclaimer>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
 		<source>https://github.com/5-star/plugin.video.last_played</source>
@@ -51,12 +59,18 @@
 	</extension>
 	<extension point="xbmc.service" library="service.py" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Star Movies</summary>
-		<description lang="en">A Kodi Addon to display and manage themoviedb lists and ratings</description>
-		<disclaimer lang="en"></disclaimer>
+		<summary lang="en_GB">Star Movies</summary>
+		<summary lang="en_US">Star Movies</summary>
+		<summary lang="en_AU">Star Movies</summary>
+		<summary lang="en_NZ">Star Movies</summary>
+		<description lang="en_GB">A Kodi Addon to display and manage themoviedb lists and ratings</description>
+		<description lang="en_US">A Kodi Addon to display and manage themoviedb lists and ratings</description>
+		<description lang="en_AU">A Kodi Addon to display and manage themoviedb lists and ratings</description>
+		<description lang="en_NZ">A Kodi Addon to display and manage themoviedb lists and ratings</description>
+		<disclaimer lang="en_GB"></disclaimer>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-		<source>https://github.com/rodrigl/plugin.video.starmovies</source>
+		<source>https://github.com/5-star/plugin.video.starmovies.org</source>
 	</extension>
 </addon>
 
@@ -73,9 +87,15 @@
 		</menu>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_gb">Clean Remove</summary>
-		<description lang="en_gb">Removes item from library and disk, together with fanart and subtitles. No more orphan files left behind after Remove from library</description>
-		<disclaimer lang="en_gb"></disclaimer>
+		<summary lang="en_GB">Clean Remove</summary>
+		<summary lang="en_US">Clean Remove</summary>
+		<summary lang="en_AU">Clean Remove</summary>
+		<summary lang="en_NZ">Clean Remove</summary>
+		<description lang="en_GB">Removes item from library and disk, together with fanart and subtitles. No more orphan files left behind after Remove from library</description>
+		<description lang="en_US">Removes item from library and disk, together with fanart and subtitles. No more orphan files left behind after Remove from library</description>
+		<description lang="en_NZ">Removes item from library and disk, together with fanart and subtitles. No more orphan files left behind after Remove from library</description>
+		<description lang="en_AU">Removes item from library and disk, together with fanart and subtitles. No more orphan files left behind after Remove from library</description>
+		<disclaimer lang="en_GB"></disclaimer>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
@@ -96,10 +116,18 @@
     <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Search for Subtitles on Play if missing</summary>
-    <description lang="en">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
-    <summary lang="pt">Pesquisa Automática por legendas no Play se não existir SRT</summary>
-    <description lang="pt">Pesquisa Automática por legendas na reprodução se não existir um ficheiro SRT de legendas.[CR][CR]Créditos dos icons vão para zNET Computer Solutions http://www.znetcs.pl</description>	
+    <summary lang="en_GB">Search for Subtitles on Play if missing</summary>
+    <summary lang="en_US">Search for Subtitles on Play if missing</summary>
+    <summary lang="en_AU">Search for Subtitles on Play if missing</summary>
+    <summary lang="en_NZ">Search for Subtitles on Play if missing</summary>
+    <description lang="en_GB">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
+    <description lang="en_US">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
+    <description lang="en_AU">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
+    <description lang="en_NZ">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
+    <summary lang="pt_PT">Pesquisa Automática por legendas no Play se não existir SRT</summary>
+    <summary lang="pt_BR">Pesquisa Automática por legendas no Play se não existir SRT</summary>
+    <description lang="pt_PT">Pesquisa Automática por legendas na reprodução se não existir um ficheiro SRT de legendas.</description>
+	<description lang="pt_BR">Pesquisa Automática por legendas na reprodução se não existir um ficheiro SRT de legendas.</description>	
     <platform>all</platform>
     <language>en</language>
   </extension>
@@ -115,12 +143,19 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">OpenSubtitles (Unofficial)</summary>
-    <description lang="en">Search and download subtitles from opensubtitles.org. This unofficial version permits to choose preference language in results</description>
-    <disclaimer lang="en"></disclaimer>
-    <summary lang="pt">OpenSubtitles (Não Oficial)</summary>
-    <description lang="pt">Pesquisa e download de legendas de opensubtitles.org. Esta versão não oficial permite nas definições escolher o idioma para apresentar legendas primeiro</description>
-    <disclaimer lang="pt"></disclaimer>	
+    <summary lang="en_GB">OpenSubtitles (Unofficial)</summary>
+    <summary lang="en_US">OpenSubtitles (Unofficial)</summary>
+    <summary lang="en_AU">OpenSubtitles (Unofficial)</summary>
+    <summary lang="en_NZ">OpenSubtitles (Unofficial)</summary>
+    <description lang="en_GB">Search and download subtitles from opensubtitles.org. This unofficial version permits to choose preference language in results</description>
+    <description lang="en_US">Search and download subtitles from opensubtitles.org. This unofficial version permits to choose preference language in results</description>
+    <description lang="en_AU">Search and download subtitles from opensubtitles.org. This unofficial version permits to choose preference language in results</description>
+    <description lang="en_NZ">Search and download subtitles from opensubtitles.org. This unofficial version permits to choose preference language in results</description>
+    <summary lang="pt_PT">OpenSubtitles (Não Oficial)</summary>
+    <summary lang="pt_BR">OpenSubtitles (Não Oficial)</summary>
+    <description lang="pt_PT">Pesquisa e download de legendas de opensubtitles.org. Esta versão não oficial permite nas definições escolher o idioma para apresentar legendas primeiro</description>
+    <description lang="pt_BR">Pesquisa e download de legendas de opensubtitles.org. Esta versão não oficial permite nas definições escolher o idioma para apresentar legendas primeiro</description>
+    <disclaimer lang="en_GB"></disclaimer>	
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <source>https://github.com/Mafarricos/service.subtitles.opensubtitles</source>    
