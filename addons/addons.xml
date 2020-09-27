@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="repository.5star" name="Repository for 5Star Kodi addons" version="1.0.8" provider-name="Luis Rodrigues">
+<addon id="repository.5star" name="Repository for 5Star Kodi addons" version="6.0.0" provider-name="Luis Rodrigues">
     <extension point="xbmc.addon.repository" name="Repository for 5Star Kodi addons">
         <info compressed="false">https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml.md5</checksum>
 		<datadir zip="true">https://github.com/5-star/repository.5star/raw/master/zips/</datadir>
-    </extension>
+    </extension> 
     <extension point="xbmc.addon.metadata">
         <summary>Repository for 5Star Kodi addons</summary>
         <description>Repository for 5Star Kodi addons</description>
@@ -14,10 +14,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.last_played" name="Last Played" version="1.3.1" provider-name="Luis Rodrigues">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-	</requires>
+<addon id="plugin.video.last_played" name="Last Played" version="6.0.0" provider-name="Luis Rodrigues">
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>video</provides>
 	</extension>
@@ -42,10 +39,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.starmovies.org" name="Star Movies" version="1.0.3" provider-name="Luis Rodrigues">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-	</requires>
+<addon id="plugin.video.starmovies.org" name="Star Movies" version="6.0.0" provider-name="Luis Rodrigues">
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>video</provides>
 	</extension>
@@ -63,10 +57,10 @@
 		<summary lang="en_US">Star Movies</summary>
 		<summary lang="en_AU">Star Movies</summary>
 		<summary lang="en_NZ">Star Movies</summary>
-		<description lang="en_GB">A Kodi Addon to display and manage themoviedb lists and ratings</description>
-		<description lang="en_US">A Kodi Addon to display and manage themoviedb lists and ratings</description>
-		<description lang="en_AU">A Kodi Addon to display and manage themoviedb lists and ratings</description>
-		<description lang="en_NZ">A Kodi Addon to display and manage themoviedb lists and ratings</description>
+		<description lang="en_GB">A Kodi Addon to display and manage Starmovies.org lists and ratings</description>
+		<description lang="en_US">A Kodi Addon to display and manage Starmovies.org lists and ratings</description>
+		<description lang="en_AU">A Kodi Addon to display and manage Starmovies.org lists and ratings</description>
+		<description lang="en_NZ">A Kodi Addon to display and manage Starmovies.org lists and ratings</description>
 		<disclaimer lang="en_GB"></disclaimer>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
@@ -74,10 +68,8 @@
 	</extension>
 </addon>
 
-<addon id="context.clean_remove" name="Clean Remove" version="1.0.2" provider-name="Luis Rodrigues">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-	</requires>	
+<addon id="context.clean_remove" name="Clean Remove" version="6.0.0" provider-name="Luis Rodrigues">
+
 	<extension point="kodi.context.item">
 		<menu id="kodi.core.main">
 			<item library="addon.py">
@@ -107,19 +99,13 @@
 </addon>
 
 <addon id="service.autoSRT"
-    name="AutoSRT (Unofficial)" version="1.0.7" provider-name="schumi2004,Mafarricos,rodrigl">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.service" library="default.py" start="login" />
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
-  </extension>
+    name="AutoSRT" version="6.0.0" provider-name="amet,schumi2004,juokelis,rodrigl">
+  <extension point="xbmc.service" library="default.py" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Search for Subtitles on Play if missing</summary>
-    <summary lang="en_US">Search for Subtitles on Play if missing</summary>
-    <summary lang="en_AU">Search for Subtitles on Play if missing</summary>
-    <summary lang="en_NZ">Search for Subtitles on Play if missing</summary>
+    <summary lang="en_GB">Auto Search for Subtitles (if missing)</summary>
+    <summary lang="en_US">Auto Search for Subtitles (if missing)</summary>
+    <summary lang="en_AU">Auto Search for Subtitles (if missing)</summary>
+    <summary lang="en_NZ">Auto Search for Subtitles (if missing)</summary>
     <description lang="en_GB">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
     <description lang="en_US">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
     <description lang="en_AU">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
@@ -130,35 +116,6 @@
 	<description lang="pt_BR">Pesquisa Automática por legendas na reprodução se não existir um ficheiro SRT de legendas.</description>	
     <platform>all</platform>
     <language>en</language>
-  </extension>
-</addon>
-
-<addon id="service.subtitles.opensubtitles"
-       name="OpenSubtitles (Unofficial)"
-       version="5.1.0"
-       provider-name="amet,Mafarricos,rodrigl">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.subtitle.module"
-             library="service.py" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">OpenSubtitles (Unofficial)</summary>
-    <summary lang="en_US">OpenSubtitles (Unofficial)</summary>
-    <summary lang="en_AU">OpenSubtitles (Unofficial)</summary>
-    <summary lang="en_NZ">OpenSubtitles (Unofficial)</summary>
-    <description lang="en_GB">Search and download subtitles from opensubtitles.org. This unofficial version permits to choose preference language in results</description>
-    <description lang="en_US">Search and download subtitles from opensubtitles.org. This unofficial version permits to choose preference language in results</description>
-    <description lang="en_AU">Search and download subtitles from opensubtitles.org. This unofficial version permits to choose preference language in results</description>
-    <description lang="en_NZ">Search and download subtitles from opensubtitles.org. This unofficial version permits to choose preference language in results</description>
-    <summary lang="pt_PT">OpenSubtitles (Não Oficial)</summary>
-    <summary lang="pt_BR">OpenSubtitles (Não Oficial)</summary>
-    <description lang="pt_PT">Pesquisa e download de legendas de opensubtitles.org. Esta versão não oficial permite nas definições escolher o idioma para apresentar legendas primeiro</description>
-    <description lang="pt_BR">Pesquisa e download de legendas de opensubtitles.org. Esta versão não oficial permite nas definições escolher o idioma para apresentar legendas primeiro</description>
-    <disclaimer lang="en_GB"></disclaimer>	
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <source>https://github.com/Mafarricos/service.subtitles.opensubtitles</source>    
   </extension>
 </addon>
 
