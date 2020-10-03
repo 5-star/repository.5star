@@ -99,7 +99,7 @@
 </addon>
 
 <addon id="service.autoSRT"
-    name="AutoSRT (Unofficial)" version="1.0.7" provider-name="schumi2004,Mafarricos,rodrigl">
+    name="AutoSRT (Unofficial)" version="6.0.0" provider-name="schumi2004,Mafarricos,rodrigl">
   <extension point="xbmc.service" library="default.py" start="login" />
   <extension point="xbmc.python.script" library="default.py">
     <provides>executable</provides>
@@ -119,7 +119,6 @@
 	<description lang="pt_BR">Pesquisa Automática por legendas na reprodução se não existir um ficheiro SRT de legendas.</description>	
     <platform>all</platform>
     <language>en</language>
-	<source>https://github.com/5-star/service.autoSRT</source>
   </extension>
 </addon>
 
