@@ -14,7 +14,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.last_played" name="Last Played" version="6.0.0" provider-name="Luis Rodrigues">
+<addon id="plugin.video.last_played" name="Last Played" version="6.0.1" provider-name="Luis Rodrigues">
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>video</provides>
 	</extension>
