@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="repository.5star" name="Repository for 5Star Kodi addons" version="6.0.2" provider-name="Luis Rodrigues">
+<addon id="repository.5star" name="Repository for 5Star Kodi addons" version="6.0.3" provider-name="Luis Rodrigues">
     <extension point="xbmc.addon.repository" name="Repository for 5Star Kodi addons">
         <info compressed="false">https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml.md5</checksum>
@@ -14,7 +14,8 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.last_played" name="Last Played" version="6.0.2" provider-name="Luis Rodrigues">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.last_played" name="Last Played" version="6.0.3" provider-name="Luis Rodrigues">
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>video</provides>
 	</extension>
@@ -26,16 +27,21 @@
 	<summary lang="en_NZ">Last Played</summary>
 		<summary lang="pt_PT">Ultimos Vistos</summary>
 		<summary lang="pt_BR">Ultimos Vistos</summary>
+		<summary lang="sk_sk">Last Played (naposledy videné)</summary>
 		<description lang="en_GB">List of the last movies, episodes and music played, including streaming sources from any addon</description>
 		<description lang="en_US">List of the last movies, episodes and music played, including streaming sources from any addon</description>
 		<description lang="en_AU">List of the last movies, episodes and music played, including streaming sources from any addon</description>
 		<description lang="en_NZ">List of the last movies, episodes and music played, including streaming sources from any addon</description>
 		<description lang="pt_PT">Ultimos filmes, episodios e musicas tocadas, incluindo fontes de streaming de qualquer addon</description>
 		<description lang="pt_BR">Ultimos filmes, episodios e musicas tocadas, incluindo fontes de streaming de qualquer addon</description>
+		<description lang="sk_SK">Naposledy prehrávané filmy, seriály a hudba, vrátane streamov z ľubovoľného doplnku</description>
 		<disclaimer lang="en_GB"></disclaimer>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
 		<source>https://github.com/5-star/plugin.video.last_played</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
