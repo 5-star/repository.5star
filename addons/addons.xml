@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="repository.5star" name="Repository for 5Star Kodi addons" version="6.0.3" provider-name="Luis Rodrigues">
+<addon id="repository.5star" name="Repository for 5Star Kodi addons" version="6.1.0" provider-name="Luis Rodrigues">
     <extension point="xbmc.addon.repository" name="Repository for 5Star Kodi addons">
         <info compressed="false">https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml.md5</checksum>
@@ -11,20 +11,22 @@
         <summary>Repository for 5Star Kodi addons</summary>
         <description>Repository for 5Star Kodi addons</description>
         <platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
     </extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.last_played" name="Last Played" version="6.0.3" provider-name="Luis Rodrigues">
+<addon id="plugin.video.last_played" name="Last Played" version="6.1.0" provider-name="Luis Rodrigues">
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.service" library="default.py" />
 	<extension point="xbmc.addon.metadata">
-	<summary lang="en_GB">Last Played</summary>
-	<summary lang="en_US">Last Played</summary>
-	<summary lang="en_AU">Last Played</summary>
-	<summary lang="en_NZ">Last Played</summary>
+		<summary lang="en_GB">Last Played</summary>
+		<summary lang="en_US">Last Played</summary>
+		<summary lang="en_AU">Last Played</summary>
+		<summary lang="en_NZ">Last Played</summary>
 		<summary lang="pt_PT">Ultimos Vistos</summary>
 		<summary lang="pt_BR">Ultimos Vistos</summary>
 		<summary lang="sk_sk">Last Played (naposledy videné)</summary>
@@ -45,7 +47,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.starmovies.org" name="Star Movies" version="6.0.0" provider-name="Luis Rodrigues">
+<addon id="plugin.video.starmovies.org" name="Star Movies" version="6.1.0" provider-name="Luis Rodrigues">
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>video</provides>
 	</extension>
@@ -71,11 +73,13 @@
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
 		<source>https://github.com/5-star/plugin.video.starmovies.org</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
-<addon id="context.clean_remove" name="Clean Remove" version="6.0.0" provider-name="Luis Rodrigues">
-
+<addon id="context.clean_remove" name="Clean Remove" version="6.1.0" provider-name="Luis Rodrigues">
 	<extension point="kodi.context.item">
 		<menu id="kodi.core.main">
 			<item library="addon.py">
@@ -101,31 +105,36 @@
 		<website></website>
 		<email></email>
 		<source>https://github.com/5-star/context.clean_remove</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
-<addon id="service.autoSRT"
-    name="AutoSRT (Unofficial)" version="6.0.0" provider-name="schumi2004,Mafarricos,rodrigl">
-  <extension point="xbmc.service" library="default.py" start="login" />
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Search for Subtitles on Play if missing</summary>
-    <summary lang="en_US">Search for Subtitles on Play if missing</summary>
-    <summary lang="en_AU">Search for Subtitles on Play if missing</summary>
-    <summary lang="en_NZ">Search for Subtitles on Play if missing</summary>
-    <description lang="en_GB">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
-    <description lang="en_US">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
-    <description lang="en_AU">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
-    <description lang="en_NZ">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
-    <summary lang="pt_PT">Pesquisa Automática por legendas no Play se não existir SRT</summary>
-    <summary lang="pt_BR">Pesquisa Automática por legendas no Play se não existir SRT</summary>
-    <description lang="pt_PT">Pesquisa Automática por legendas na reprodução se não existir um ficheiro SRT de legendas.</description>
-	<description lang="pt_BR">Pesquisa Automática por legendas na reprodução se não existir um ficheiro SRT de legendas.</description>	
-    <platform>all</platform>
-    <language>en</language>
-  </extension>
+<addon id="service.autoSRT" name="AutoSRT (Unofficial)" version="6.1.0" provider-name="schumi2004,Mafarricos,rodrigl">
+	<extension point="xbmc.service" library="default.py" start="login" />
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Search for Subtitles on Play if missing</summary>
+		<summary lang="en_US">Search for Subtitles on Play if missing</summary>
+		<summary lang="en_AU">Search for Subtitles on Play if missing</summary>
+		<summary lang="en_NZ">Search for Subtitles on Play if missing</summary>
+		<description lang="en_GB">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znet</description>
+		<description lang="en_US">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
+		<description lang="en_AU">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
+		<description lang="en_NZ">Auto Search for Subtitles on Playback start if no SRT file is found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
+		<summary lang="pt_PT">Pesquisa Automática por legendas no Play se não existir SRT</summary>
+		<summary lang="pt_BR">Pesquisa Automática por legendas no Play se não existir SRT</summary>
+		<description lang="pt_PT">Pesquisa Automática por legendas na reprodução se não existir um ficheiro SRT de legendas.</description>
+		<description lang="pt_BR">Pesquisa Automática por legendas na reprodução se não existir um ficheiro SRT de legendas.</description>	
+		<platform>all</platform>
+		<language>en</language>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
 </addon>
 
 </addons>
